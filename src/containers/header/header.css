@@ -1,0 +1,154 @@
+.gpt3__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+}
+
+.gpt3__header-container-head {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  margin-top: 10rem;
+}
+
+.gpt3__header-container-para {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #81afdd;
+  margin: 2rem 0;
+  width: 90%;
+}
+
+.gpt3__header-contact input {
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  padding: 0.5rem 5rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3d6184;
+}
+
+.gpt3__header-contact button {
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 0.5rem 2.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.gpt3__header-visited {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.gpt3__header-visited img {
+  width: 20%;
+}
+
+.gpt3__header-visited p {
+  color: #ffffff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  margin-top: 0.5rem;
+}
+
+.gpt3__header-image img {
+  width: 100%;
+  height: 100%;
+
+  /* width: 667.41px;
+  height: 701.59px; */
+}
+
+/* --------- MEDIA QUERY -------------- */
+
+/* ----------- 1050PX ------------------ */
+@media screen and (max-width: 1050px) {
+  .gpt3__header-container-head {
+    font-size: 50px;
+    margin-top: 5rem;
+    line-height: 70px;
+  }
+
+  .gpt3__header-container-para {
+    font-size: 20px;
+  }
+
+  .gpt3__header-contact input {
+    width: 58%;
+    padding: 0.6rem;
+  }
+
+  .gpt3__header-contact button {
+    border: none;
+    padding: 0.6rem 2.5rem;
+  }
+}
+
+/* --------- MEDIA QUERY -------------- */
+
+/* ----------- 768PX ------------------ */
+@media screen and (max-width: 768px) {
+  .gpt3__header {
+    display: block;
+  }
+
+  .gpt3__header-container-head {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+/* ----------- LARGE MOBILE ------------------ */
+@media screen and (max-width: 425px) {
+  .gpt3__header-container-head {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .gpt3__header-container-para {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .gpt3__header-contact input,
+  .gpt3__header-contact button {
+    width: 100%;
+    border-radius: unset;
+  }
+
+  .gpt3__header-visited p {
+    line-height: 15px;
+  }
+}
+
+/* ----------- SMALL MOBILE ------------------ */
+@media screen and (max-width: 320px) {
+  .gpt3__header-container-head {
+    font-size: 30px;
+    margin-top: 3rem;
+  }
+
+  .gpt3__header-visited {
+    margin-bottom: 1rem;
+  }
+}
+

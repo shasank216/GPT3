@@ -1,0 +1,130 @@
+.gpt3__features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8rem 2rem;
+
+
+       /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 5% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 5% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 5% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 5% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 5% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+.gpt3__features-LeftPart {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.gpt3__features-LeftPart h2 {
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.gpt3__features-LeftPart p {
+    color: #FF8A71;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.gpt3__feature-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+
+.card-linearGradient {
+    width: 38px;
+    height: 5px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.gpt3__feature-card h2 {
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    width: 50%;
+}
+
+.gpt3__feature-card p {
+    color: #81AFDD;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* -------------- MEDIAI QUERY ---------------- */
+
+/* -------------- TABLET -----------------------*/
+@media screen and (max-width: 768px) {
+    .gpt3__features {
+        display: block;
+    }
+
+    .gpt3__features-LeftPart {
+        margin-bottom: 3rem;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .gpt3__features-LeftPart h2 {
+        font-size: 30px;
+    }
+}
+
+/* -------------- LARGE MOBILE -----------------------*/
+@media screen and (max-width: 425px) {
+    .gpt3__features {
+        padding: 5rem 2rem;
+    }
+
+    .gpt3__features-LeftPart {
+        width: 100%;
+    }
+
+    .gpt3__features-LeftPart h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .gpt3__features-LeftPart p {
+        font-size: 12px;
+    }
+
+    .gpt3__feature-card {
+        display: block;
+    }
+
+    .gpt3-feature-card_head {
+        margin-bottom: 1rem;
+    }
+
+    .gpt3-feature-card_head h2 {
+        font-size: 16px;
+        width: 70%;
+    }
+}

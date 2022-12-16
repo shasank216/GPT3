@@ -1,0 +1,118 @@
+.gpt3__possibility {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 2rem;
+
+
+}
+
+
+.gpt3__possibility img {
+    width: 45%;
+}
+
+.gpt3__possibility-container {
+    margin-top: 18%;
+}
+
+.gpt3__possibility-container_firstPara,
+.gpt3__possibility-container_thirdPara {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.gpt3__possibility-container_firstPara {
+    color: #71E5FF;
+}
+
+
+.gpt3__possibility-container h1 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    width: 65%;
+    margin: 1.5rem 0;
+}
+
+.gpt3__possibility-container_secondPara {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+    width: 65%;
+}
+
+.gpt3__possibility-container_thirdPara {
+    color: #FF8A71;
+    margin-top: 2rem;
+}
+
+
+/* ------------ MEDIA QUERY ------------------- */
+
+/* ------------ LAPTOP ----------------------- */
+@media screen and (max-width: 1024px) {
+    .gpt3__possibility-container {
+        margin-top: 8rem;
+    }
+
+   .gpt3__possibility-container h1 {
+        width: 85%;
+        margin: 1re 0;
+    }
+
+    .gpt3__possibility-container_secondPara {
+        width: 95%;
+    }
+
+    .gpt3__possibility-container_thirdPara {
+        margin-top: 1rem;
+    }
+}
+
+
+/* ------------ TABLET ----------------------- */
+@media screen and (max-width: 768px) {
+    .gpt3__possibility img {
+        width: 50%;
+    }
+
+    .gpt3__possibility-container {
+        margin-top: 1.5rem;
+    }
+
+    .gpt3__possibility-container_firstPara,
+    .gpt3__possibility-container_secondPara,
+    .gpt3__possibility-container_thirdPara {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .gpt3__possibility-container h1 {
+        font-size: 25px;
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+/* ------------ LARGE MOBILE ----------------------- */
+@media screen and (max-width: 425px) {
+    .gpt3__possibility {
+        display: block;
+    }
+
+    .gpt3__possibility img {
+        width: 100%;
+    }
+
+    .gpt3__possibility-container_thirdPara {
+        margin-top: 1.5rem;
+    }
+}

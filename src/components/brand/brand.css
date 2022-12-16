@@ -1,0 +1,30 @@
+.gpt3__brand {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  gap: 3rem;
+}
+
+/* --------- MEDIA QUERY -------------- */
+
+/* ----------- 768PX ------------------ */
+@media screen and (max-width: 768px) {
+  .gpt3__brand {
+    gap: 2rem;
+  }
+
+  .gpt3__brand img {
+    height: 20px;
+  }
+}
+
+/* ----------- LARGE MOBILE ------------------ */
+@media screen and (max-width: 425px) {
+  .gpt3__brand {
+    gap: 1rem;
+  }
+
+  .gpt3__brand img {
+    width: 15%;
+  }
+}
