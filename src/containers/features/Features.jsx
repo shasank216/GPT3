@@ -23,7 +23,7 @@ const FeatureData = [
 
 const Features = () => {
   return (
-    <div className="gpt3__features">
+    <div className="gpt3__features" id="openAi">
       <div className="gpt3__features-LeftPart">
         <h2>
           The Future is Now and You Just Need To Realize It. Step into Future

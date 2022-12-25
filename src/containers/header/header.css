@@ -48,6 +48,8 @@
   padding: 0.5rem 2.5rem;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  cursor: pointer;
+
 }
 
 .gpt3__header-visited {

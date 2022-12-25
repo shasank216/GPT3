@@ -6,7 +6,7 @@ import AI from "../../assets/ai.png";
 
 const Header = () => {
   return (
-    <div className="gpt3__header">
+    <div className="gpt3__header" id="home">
       <div className="gpt3__header-container">
         <h1 className="gpt3__header-container-head">
           Let’s Build Something amazing with GPT-3 OpenAI

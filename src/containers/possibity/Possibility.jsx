@@ -4,7 +4,7 @@ import image from "../../assets/possibility.png";
 
 const Possibility = () => {
   return (
-    <div className="gpt3__possibility bac">
+    <div className="gpt3__possibility bac" id="caseStudies">
       {/* <div className="gpt3__possibiity-image"> */}
         <img src={image} alt="possibility" />
       {/* </div> */}

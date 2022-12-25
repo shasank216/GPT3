@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const WhatGPT3 = () => {
   return (
-    <div className="gpt3__whatgpt3 bac">
+    <div className="gpt3__whatgpt3 bac" id="whatGPT">
       <div className="gpt3__card gpt3__whatgpt3-first">
         <div className="card-graident" />
         <div className="gpt3__card-new">

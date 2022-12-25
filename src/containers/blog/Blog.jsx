@@ -9,7 +9,7 @@ import { Article } from "../../components";
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog">
+    <div className="gpt3__blog" id="library">
       <h1>
         A lot is happening, <br /> We are blogging about it.
       </h1>

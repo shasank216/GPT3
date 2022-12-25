@@ -37,6 +37,7 @@
 
 .card_container p:last-child {
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .gpt3__blog-container_cardA .card_container p:last-child {
